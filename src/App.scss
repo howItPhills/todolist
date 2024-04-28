@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffdff;
+  padding: 10px 0px;
+}
+
+.todo-wrapper:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.03);
+}
+
+.todo-done {
+  opacity: 0.6;
+}
